@@ -10,16 +10,11 @@
 
 ## Code Problems
 
-1. Declare a function named `reverseBothStrings` that takes in two string arguments and returns the reversed version of both strings concatenated with a white space. Solve without using any `.reverse()` JavaScript methods. **Hint:** How can you use a loop iterate through a string backwards?
+
+1. Declare a function named `averageInArray` that will calculate the  average of the elements in an array of numbers and returns a string showing the calulations for getting that average. You must solve this without using any built-in array methods by iterating through the array.  
 ```
-reverseString("first", "second")  //"tsrif dnoces"
-reverseString("hello", "Carmen")  //"olleh nemraC"
-reverseString("", "oo")       // " oo"
+averageInArray([2,4,5,7,8]) // returns "26 divided by 5 calcluates an average of 5.2"
+averageInArray([2,2,5,10]) // returns "19 divided by 4 calcluates an average of 4.75"
+averageInArray([2,2,2,2,2,2,2]) // returns "14 divided by 7 calcluates an average of 2"
 ```
 
-1. Declare a function named `reverseAllStrings` that takes in any number of string arguments and returns the reversed version of all the arugments concatenated with a white space. Solve without using any `.reverse()` JavaScript methods.
-```
-reverseString("first", "second", "third")  //"tsrif dnoces drith"
-reverseString("hello")  //"olleh"
-reverseString("code", "challenge", "is", "fun") // "edoc egnellahc si nuf" 
-```
